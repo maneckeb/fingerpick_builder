@@ -26,7 +26,7 @@
             {{ end }}
           </div>
           <div class="col-12">
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
+            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[600px]"  ) }}
           </div>
         </div>
       </div>
@@ -43,7 +43,12 @@
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
-            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Class" "rounded-lg") }}
+            {{with .video}}
+              {{if .enable}}
+                {{ partial "youtube-lite.html" (dict "Id" .youtube "Class" "mx-auto"  "Width" "600px" "Style" "" "Attr" "") }}
+              {{end}}
+            {{end}}
           </div>
           <div
             class="{{ if not (modBool $i 2) }}
@@ -53,7 +58,7 @@
               {{ .title | markdownify }}
             </h2>
             <p class="mb-8 text-lg">
-              {{ .content | markdownify }}
+              {{ .content | $.Page.RenderString (dict "display" "block") }}
             </p>
             <ul>
               {{ range .bulletpoints }}
