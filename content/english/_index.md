@@ -12,6 +12,47 @@ banner:
 
 # Features
 features:
+  - title: "What is Country Blues Guitar?"
+    image:
+      enable: false
+      imagesrc: "" 
+    video:
+      enable: true
+      youtube: "tx29hxvjPfk"
+    video2:
+      enable: true
+      youtube: "6VAbrnjdtYw" 
+     
+    content: "Fingerstyle country blues guitar is a method of playing guitar in which your thumb is playing a bass line and a melody is played with your remaining fingers. It can be heard in some of the earliest recordings of blues and ragtime guitarists across America.</p></br>
+
+    <p>The early recordings of the 1920’s influenced many guitarists in the 1930’s and the style became popular in country music at the time.</p><br>
+
+    <p>During the folk revival of the 1950’s and 1960’s many of the finger picking blues artists who recorded records in the twentys were rediscovered and their music influenced a whole now generation of guitar players eager to learn.</p><br>
+
+    <p>Ever since fingerpicking blues guitar can be heard across numerous genres, from rock, indy, blues, country, and the current bucket that holds all American Roots Music… Americana."
+    bulletpoints:
+      
+    button:
+      enable: false
+      label: ""
+      link: ""
+
+  - title: "Song based Lessons"
+    image:
+      enable: true
+      imagesrc: "/images/kidplaying.jpg"
+    content: "One on one, song based guitar lessons that are fun to learn and play. Guitar Lessons are catered to your ability level and build upon each other to form a natural progression of skills. Beginner and Advanced players alike will find enjoyable lessons that expand your skill set."
+    bulletpoints:
+      - "In home guitar lessons available in Salt Lake City, UT. "
+      - "Learn guitar anywhere with Video Call Lessons"
+      - "Lessons are not pre-recorded videos, get instant feedback and receive valuable tips to get the most out of your practice time."
+    button:
+      enable: false
+      label: "Get Started Now"
+      link: "https://github.com/zeon-studio/hugoplate"
+ 
+
+
   - title: "Burl Who?"
     image:
       enable: true
@@ -33,44 +74,8 @@ features:
       label: "Song based Lessons"
       link: "#"
 
-  - title: "Song based Lessons"
-    image:
-      enable: true
-      imagesrc: "/images/kidplaying.jpg"
-    content: "One on one, song based guitar lessons that are fun to learn and play. Guitar Lessons are catered to your ability level and build upon each other to form a natural progression of skills. Beginner and Advanced players alike will find enjoyable lessons that expand your skill set."
-    bulletpoints:
-      - "In home guitar lessons available in Salt Lake City, UT. "
-      - "Learn guitar anywhere with Video Call Lessons"
-      - "Lessons are not pre-recorded videos, get instant feedback and receive valuable tips to get the most out of your practice time."
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
-
-  - title: "What is Country Blues Guitar?"
-    image:
-      enable: false
-      imagesrc: "" 
-    video:
-      enable: true
-      youtube: "tx29hxvjPfk"
-    video2:
-      enable: true
-      youtube: "6VAbrnjdtYw" 
-    content: "Fingerstyle country blues guitar is a method of playing guitar in which your thumb is playing a bass line and a melody is played with your remaining fingers. It can be heard in some of the earliest recordings of blues and ragtime guitarists across America.</p></br>
-
-    <p>The early recordings of the 1920’s influenced many guitarists in the 1930’s and the style became popular in country music at the time.</p><br>
-
-    <p>During the folk revival of the 1950’s and 1960’s many of the finger picking blues artists who recorded records in the twentys were rediscovered and their music influenced a whole now generation of guitar players eager to learn.</p><br>
-
-    <p>Ever since fingerpicking blues guitar can be heard across numerous genres, from rock, indy, blues, country, and the current bucket that holds all American Roots Music… Americana."
-    bulletpoints:
-      
-    button:
-      enable: false
-      label: ""
-      link: ""
-
+ 
+  
 
 # Soundslice
 soundslice:

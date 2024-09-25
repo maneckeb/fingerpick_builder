@@ -50,14 +50,17 @@
               {{end}}
             {{with .video}}
               {{if .enable}}
-                {{ partial "youtube-lite.html" (dict "Id" .youtube "Class" "mx-auto"  "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Style" "" "Attr" "") }}
+              <iframe style="width:100%; aspect-ratio:5/4" src="https://www.youtube.com/embed/tx29hxvjPfk?rel=0 " title="Mississippi John Hurt Spike driver blues" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <!-- {{ partial "youtube-lite.html" (dict "Id" .youtube "Class" "mx-auto"  "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Style" "" "Attr" "background-image: url('https://i.ytimg.com/vi/6VAbrnjdtYw/hqdefault.jpg')") }} -->
               {{end}}
             {{end}}
             {{with .video2}}
             <br>
               {{if .enable}}
-                {{ partial "youtube-lite.html" (dict "Id" .youtube "Class" "mx-auto"  "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Style" "" "Attr" "") }}
-              {{end}}
+              
+              <iframe style="width:100%; aspect-ratio:5/4"src="https://www.youtube.com/embed/6VAbrnjdtYw?rel=0 " title="Doc Watson-Deep River Blues" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <!-- {{ partial "youtube-lite.html" (dict "Id" .youtube "Class" "mx-auto"  "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Style" "" "Attr" "hello") }} -->
+               {{end}}
             {{end}}
           </div>
           <div
