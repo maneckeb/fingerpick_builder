@@ -1,4 +1,8 @@
 ---
+build:
+  list: never
+  publishResources: false
+  render: never
 title: "Elements"
 # meta title
 meta_title: ""

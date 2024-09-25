@@ -43,10 +43,20 @@
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
-            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Class" "rounded-lg") }}
+            {{with .image}}
+              {{if .enable}}
+                {{ partial "image" (dict "Src" .imagesrc "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Class" "rounded-lg") }}
+              {{end}}
+              {{end}}
             {{with .video}}
               {{if .enable}}
-                {{ partial "youtube-lite.html" (dict "Id" .youtube "Class" "mx-auto"  "Width" "600px" "Style" "" "Attr" "") }}
+                {{ partial "youtube-lite.html" (dict "Id" .youtube "Class" "mx-auto"  "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Style" "" "Attr" "") }}
+              {{end}}
+            {{end}}
+            {{with .video2}}
+            <br>
+              {{if .enable}}
+                {{ partial "youtube-lite.html" (dict "Id" .youtube "Class" "mx-auto"  "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Style" "" "Attr" "") }}
               {{end}}
             {{end}}
           </div>
@@ -82,7 +92,28 @@
     </section>
   {{ end }}
   <!-- /Features -->
-
+  <!-- Soundslice -->
+  {{with .Params.soundslice}} 
+  <section class="section pt-14">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-7 md:col-9 mb-8 text-center">
+          <h1 class="mb-4 text-h3 lg:text-h1">
+            {{ .title | markdownify }}
+          </h1>
+          <p class="mb-8">
+            {{ .content | markdownify }}
+          </p>
+         
+        </div>
+        <div class="col-12">
+          <iframe loading="lazy" src="https://www.soundslice.com/slices/xSclc/embed/" width="100%" height="500" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </section> 
+  {{end}}
+  <!-- /soundslice -->
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}

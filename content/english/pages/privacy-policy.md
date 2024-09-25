@@ -1,4 +1,8 @@
 ---
+build:
+  list: never
+  publishResources: false
+  render: never
 title: "Privacy"
 # meta title
 meta_title: ""

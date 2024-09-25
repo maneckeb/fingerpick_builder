@@ -1,4 +1,5 @@
 ---
+
 # Banner
 banner:
   title: "Discover the magic of roots guitar"
@@ -12,7 +13,9 @@ banner:
 # Features
 features:
   - title: "Burl Who?"
-    image: "/images/guitarb&w.jpg"
+    image:
+      enable: true
+      imagesrc: "/images/guitarb&w.jpg"
     content: " Inspired by his grandfather’s playing, Burl picked up a guitar at the age of five and immediately took to it. After   being denied both a seat in the elementary school band (the guitar is a stringed, not brass, instrument), and the elementary school symphony (but isn’t the symphony for stringed instruments?) he locked himself in his room and learned to play by ear listening to old cowboy records.</p><br>
 
     <p>Somehow he stumbled upon Eric Clapton’s unplugged album in junior high and was enamored by Clapton’s fingerstyle guitar (later he realized most of the tunes on the album were covers of American Blues guitarists). He spent months trying to figure out every song on that album.</p>  <br>
@@ -31,7 +34,9 @@ features:
       link: "#"
 
   - title: "Song based Lessons"
-    image: "/images/kidplaying.jpg"
+    image:
+      enable: true
+      imagesrc: "/images/kidplaying.jpg"
     content: "One on one, song based guitar lessons that are fun to learn and play. Guitar Lessons are catered to your ability level and build upon each other to form a natural progression of skills. Beginner and Advanced players alike will find enjoyable lessons that expand your skill set."
     bulletpoints:
       - "In home guitar lessons available in Salt Lake City, UT. "
@@ -43,10 +48,15 @@ features:
       link: "https://github.com/zeon-studio/hugoplate"
 
   - title: "What is Country Blues Guitar?"
-    image: "/images/service-3.png"
+    image:
+      enable: false
+      imagesrc: "" 
     video:
       enable: true
       youtube: "tx29hxvjPfk"
+    video2:
+      enable: true
+      youtube: "6VAbrnjdtYw" 
     content: "Fingerstyle country blues guitar is a method of playing guitar in which your thumb is playing a bass line and a melody is played with your remaining fingers. It can be heard in some of the earliest recordings of blues and ragtime guitarists across America.</p></br>
 
     <p>The early recordings of the 1920’s influenced many guitarists in the 1930’s and the style became popular in country music at the time.</p><br>
@@ -60,4 +70,11 @@ features:
       enable: false
       label: ""
       link: ""
+
+
+# Soundslice
+soundslice:
+  title: "Is this right for me?"
+  content: "Beginner, expert, young and old? From learning to tune your guitar, to more advanced lessons Burl can guide you along the path of playing guitar every step of the way. Included with your fingerstyle guitar lessons will be easy to follow tablature notation of songs and exercises. Included in many of your lessons is a video performance synced to an interactive tablature player. It make practice easy and fun."
+
 ---
