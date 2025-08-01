@@ -1,8 +1,17 @@
 <div class="bg-body dark:bg-darkmode-body">
   {{ $image:= .Params.image }}
+  {{ $dimage:= .Params.darkimage}}
+<div class="h-56 flex items-center justify-center">
   {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded" "Size" "300x") }}
+    {{ if $dimage }}
+      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-1/2  mx-auto dark:hidden") }}
+      {{ partial "image" (dict "Src" $dimage "Context" .Page "Alt" .Title "Class" "mb-6 w-1/2  mx-auto hidden dark:block") }}
+    {{ else }}
+      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-1/2  mx-auto") }}
+     {{ end }} 
   {{ end }}
+
+</div>
   <h4 class="mb-3">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}

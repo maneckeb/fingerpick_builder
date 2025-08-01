@@ -1,1 +1,3 @@
-test
+Commands to remember
+
+To create a new page:  hugo new {section/title.md}
