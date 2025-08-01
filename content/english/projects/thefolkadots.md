@@ -11,7 +11,7 @@ author: ""
 tags: []
 draft: false
 ---
-
+{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 ## The Folkadots: Utah's Harmonious Heartbeat
 
 If you're craving music that feels like a warm hug from the mountains and a breeze from the desert, look no further than The Folkadots. This Salt Lake City-based folk band blends nostalgic Americana with modern poetic charm—an irresistible combo that leaves audiences humming long after the last note fades.
