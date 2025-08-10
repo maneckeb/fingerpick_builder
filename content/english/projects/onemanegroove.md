@@ -6,7 +6,7 @@ description: "this is meta description"
 date: 2025-07-31T05:00:00Z
 image: "/images/omgLogo.png"
 darkimage: "/images/omgLogo-darkmode.png"
-categories: []
+categories: [actively gigging]
 author: ""
 tags: []
 draft: false
