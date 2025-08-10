@@ -29,3 +29,5 @@ Beyond the sidewalks, this one man band is available to bring musical magic to b
 ## Catch Him Around Town
 Whether you're on Main Street grabbing coffee or exploring the arts district, keep your ears open and your camera ready. The rhythm, the laughter, and the sheer spectacle are hard to miss.  Bring your Kazoo and join in the fun!
 
+## Instruments Played:
+Quatro, Harmonica, Kazoo, Drums, Tamborine

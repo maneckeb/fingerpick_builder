@@ -24,6 +24,10 @@ Their sound is a patchwork quilt of delicate vocals, acoustic strings, and heart
 
 Born out of Utah’s vibrant folk scene, they’ve captured hearts across the state and beyond with their authentic, down-to-earth performances. Whether they’re playing in cozy venues, outdoor festivals, or intimate living room concerts, their music always feels close to home.
 
+## Instruments Played:
+
+Guitar, Banjo, Stand-up Bass
+
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/1Mydx243McnxiTvDWV4XCQ?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </br>
 

@@ -10,3 +10,5 @@ author: ""
 tags: []
 draft: false
 ---
+## Instruments Played:
+Banjo, Tenor Banjo
