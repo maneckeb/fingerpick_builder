@@ -18,7 +18,16 @@ Meg Frampton and Nick Price were integral members of Meg & Dia, a band that gain
 
 The Khaki Scouts blend jangly indie pop, punk energy, and acoustic warmth, creating a sound that’s both nostalgic and fresh. Their music is characterized by catchy hooks, heartfelt lyrics, and a DIY aesthetic that reflects their roots in the indie scene.
 
-## Tracks 
+## Collab Tracks 
+
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1305168879/size=small/bgcol=ffffff/linkcol=0687f5/track=2500626298/transparent=true/" seamless><a href="https://thekhakiscouts.bandcamp.com/album/12-days">12 Days by The Khaki Scouts</a></iframe>
+
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1305168879/size=small/bgcol=ffffff/linkcol=0687f5/track=3907545917/transparent=true/" seamless><a href="https://thekhakiscouts.bandcamp.com/album/12-days">12 Days by The Khaki Scouts</a></iframe>
+
 ## Instruments Played:
 
 Banjo
+
+## Stream the Album 
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1305168879/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://thekhakiscouts.bandcamp.com/album/12-days">12 Days by The Khaki Scouts</a></iframe>
