@@ -3,7 +3,7 @@
 title: "The Folka Dots"
 meta_title: ""
 description: "this is meta description"
-date: 2012-07-31T05:00:00Z
+date: 2011-07-31T05:00:00Z
 image: "/images/dotslogo.jpg"
 darkimage: ""
 categories: [listen online]

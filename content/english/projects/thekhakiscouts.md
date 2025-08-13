@@ -2,10 +2,10 @@
 title: "The Khaki Scouts"
 meta_title: ""
 description: ""
-date: 2012-06-01T05:00:00Z
+date: 2011-06-01T05:00:00Z
 image: "/images/khakiscouts.jpg"
 darkimage: ""
-categories: [Collab, listen online]
+categories: [listen online, Collab]
 author: ""
 tags: []
 draft: false
