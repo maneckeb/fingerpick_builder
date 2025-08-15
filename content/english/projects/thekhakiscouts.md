@@ -1,0 +1,33 @@
+---
+title: "The Khaki Scouts"
+meta_title: ""
+description: ""
+date: 2011-06-01T05:00:00Z
+image: "/images/khakiscouts.jpg"
+darkimage: ""
+categories: [listen online, Collab]
+author: ""
+tags: []
+draft: false
+---
+## From Meg & Dia to The Khaki Scouts
+
+Meg Frampton and Nick Price were integral members of Meg & Dia, a band that gained a loyal following in the mid-2000s with its emotionally rich lyrics and melodic rock sound. After Meg & Dia disbanded in 2012, Meg and Nick continued their musical journey, forming The Khaki Scouts as a more intimate and experimental project.
+
+## Sound and Style
+
+The Khaki Scouts blend jangly indie pop, punk energy, and acoustic warmth, creating a sound that’s both nostalgic and fresh. Their music is characterized by catchy hooks, heartfelt lyrics, and a DIY aesthetic that reflects their roots in the indie scene.
+
+## Collab Tracks 
+
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1305168879/size=small/bgcol=ffffff/linkcol=0687f5/track=2500626298/transparent=true/" seamless><a href="https://thekhakiscouts.bandcamp.com/album/12-days">12 Days by The Khaki Scouts</a></iframe>
+
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1305168879/size=small/bgcol=ffffff/linkcol=0687f5/track=3907545917/transparent=true/" seamless><a href="https://thekhakiscouts.bandcamp.com/album/12-days">12 Days by The Khaki Scouts</a></iframe>
+
+## Instruments Played:
+
+Banjo
+
+## Stream the Album 
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1305168879/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://thekhakiscouts.bandcamp.com/album/12-days">12 Days by The Khaki Scouts</a></iframe>
