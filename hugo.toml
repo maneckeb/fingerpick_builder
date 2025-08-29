@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "http://www.fingerpickguitar.com"
+baseURL = "https://fingerpickguitar.com"
 
 # Title of your website (required).
 title = "Fingerpick Guitar | Travis Picking Guitar Lessons"
@@ -143,6 +143,7 @@ lazy = true
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/icons.css"
 lazy = true
+
 
 # JS Plugins
 [[params.plugins.js]]
