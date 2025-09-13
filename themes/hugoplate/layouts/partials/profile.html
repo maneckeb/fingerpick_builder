@@ -1,0 +1,16 @@
+{{/* layouts/partials/profile.html */}}
+<div class="flex flex-col items-center mb-8">
+    {{ partial "image" (dict "Src" .Params.profileImage "Context" .Page "Alt" .Title "Class" "rounded-full mx-auto mb-6" "Size" "200x200") }}
+    <h1 class="text-3xl font-bold mb-2 text-center" style="color: var(--text-color)">
+      {{ .Params.name }}
+    </h1>
+    <p class="text-center opacity-80 mb-6">{{ .Params.description }}<Br>{{ .Params.address }}</p>
+      
+    <div class="flex flex-wrap justify-center gap-4 mb-8 social-icons">
+      {{ range .Params.socials }}
+        <a href="{{ .url }}" class="text-xl" target="_blank" rel="noopener">
+          <i class="{{ .icon }} icon"></i>
+        </a>
+      {{ end }}
+    </div>
+</div>

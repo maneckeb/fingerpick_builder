@@ -1,5 +1,5 @@
 ---
 title: "Projects"
 meta_title: ""
-description: "this is meta description"
+description: "Disccography of Burl Onion"
 ---

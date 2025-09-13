@@ -1,0 +1,20 @@
+<div class="space-y-4 mb-8">
+    
+    {{ range .Params.links }}
+      {{ if eq .title "Subscribe"}}
+      <a data-formkit-toggle="486ebf956d" href="{{ .href }}" class="block btn btn-primary link-card p-4 flex items-center ">
+      {{ else }}
+      <a href="{{ .href }}" class="block btn btn-primary link-card p-4 flex items-center">
+      {{ end }}
+        <div class="w-10 h-10 flex items-center justify-center mr-4">
+          <i class="{{ .icon }} icon text-xl"></i>
+        </div>
+        <div>
+          <p class="text-xl font-bold">{{ .title }}</p>
+          <p class="text-sm ">{{ .description }}</p>
+        </div>
+      </a>
+
+    {{ end }}
+
+</div>

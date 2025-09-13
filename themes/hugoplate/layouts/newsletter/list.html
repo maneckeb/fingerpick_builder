@@ -1,0 +1,45 @@
+{{ define "main" }}
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="md:col-10 lg:col-7 text-center">
+          <!--{{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "rounded-full mx-auto mb-6" "Size" "200x200") }}
+          <h2 class="h3 mb-6">{{ .Title }}</h2>-->
+          <div id="subscribe">
+            <div>
+              <h1>{{ .Params.fallback }}</h1>
+            </div>
+            <section class="section">
+            {{ partial "link-card.html" . }}
+            
+            </section>
+            </div>
+          <div class="content" id="hiddenelement">{{ .Content }}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- check for newsletter signup -->
+  <script>
+  function getParameterByName(name, url = window.location.href) {
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+
+  var secretKey = getParameterByName('key');
+  var secretContent = document.getElementById('hiddenelement');
+  var nonsecretcontent = document.getElementById('subscribe');
+  if (secretKey === 'newsl3tt3r$ubscr1b3r') {
+      secretContent.style.display = 'block';
+      nonsecretcontent.style.display = "none";
+  } else {
+      secretContent.style.display = 'none';
+      nonsecretcontent.style.display = "block";
+  }
+</script>
+<script async data-uid="486ebf956d" src="https://fingerpick-guitar.kit.com/486ebf956d/index.js"></script>
+{{ end }}

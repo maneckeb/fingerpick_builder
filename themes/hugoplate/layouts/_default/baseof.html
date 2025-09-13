@@ -35,9 +35,10 @@
 
 
     <!-- header (don't cache it) -->
-    {{ partial "essentials/header.html" . }}
-    {{ partial "search-modal.html" (dict "Context" . ) }}
-
+    {{ if not .Page.Params.no_header }} 
+      {{ partial "essentials/header.html" . }}
+      {{ partial "search-modal.html" (dict "Context" . ) }}
+    {{ end }}
 
     <main>
       {{ block "main" . }}{{ end }}
