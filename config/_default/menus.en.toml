@@ -15,14 +15,14 @@ weight = 1
 name = "Projects"
 url = "/projects"
 weight = 2
-#[[main]]
-#name = "Elements"
-#url = "/elements"
-#weight = 3
+[[main]]
+name = "Tab Store"
+url = "https://www.soundslice.com/store/?artist=Burl_Onion"
+weight = 3
 #
 #[[main]]
 #weight = 4
-#name = "Pages"
+#name = "Page"
 #
 #[[main]]
 #parent = "Pages"

@@ -38,11 +38,12 @@
   {{ range $i, $e:= .Params.features }}
     <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
       <div class="container">
-        <div class="row items-center justify-between">
+        <div class="row items-center {{ if or ( .image.enable ) ( .video.enable ) }}justify-between {{ else }} justify-center {{ end }}">
+          {{ if or ( .image.enable ) ( .video.enable ) }}
           <div
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
-            {{ end }} md:col-5 mb-6">
+            {{ end }} md:col-5 mb-6 ">
             {{with .image}}
               {{if .enable}}
                 {{ partial "image" (dict "Src" .imagesrc "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Class" "rounded-lg") }}
@@ -63,14 +64,15 @@
                {{end}}
             {{end}}
           </div>
+          {{ end }}
           <div
             class="{{ if not (modBool $i 2) }}
               md:order-1
-            {{ end }} md:col-7 lg:col-6">
+            {{ end }} {{ if or ( .image.enable ) ( .video.enable ) }}md:col-7 lg:col-6 {{else}} text-center lg:col-7 md:col-9{{end}}">
             <h2 class="mb-4">
               {{ .title | markdownify }}
             </h2>
-            <p class="mb-8 text-lg">
+            <p class="mb-8 text-lg ">
               {{ .content | $.Page.RenderString (dict "display" "block") }}
             </p>
             <ul>
@@ -83,7 +85,7 @@
             </ul>
             {{ with .button }}
               {{ if .enable }}
-                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+                <a class="btn btn-primary mt-6" {{if eq .label "Join the newsletter for free tab" }}data-formkit-toggle="486ebf956d"{{end}}href="{{ .link | absURL }}">
                   {{ .label }}
                   <i class="fa fa-arrow-right pl-2"></i>
                 </a>

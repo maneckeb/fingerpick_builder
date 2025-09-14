@@ -51,7 +51,19 @@ features:
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
  
-
+  - title: "Is this right for me?"
+    image:
+      enable: false
+      imagesrc: "/images/kidplaying.jpg"
+    content: "Beginner, expert, young and old? From learning to tune your guitar, to more advanced lessons Burl can guide you along the path of playing guitar every step of the way. Included with your fingerstyle guitar lessons will be easy to follow tablature notation of songs and exercises. Included in many of your lessons is a video performance synced to an interactive tablature player. It make practice easy and fun.</p>
+    <br> 
+     <p>Want to try a sample tab?  Subscribe to our email list and get access!</p>
+    "
+    button:
+      enable: True
+      label: "Join the newsletter for free tab"
+      link: "https://fingerpick-guitar.kit.com/486ebf956d"
+ 
 
   - title: "Burl Who?"
     image:
@@ -77,9 +89,5 @@ features:
  
   
 
-# Soundslice
-soundslice:
-  title: "Is this right for me?"
-  content: "Beginner, expert, young and old? From learning to tune your guitar, to more advanced lessons Burl can guide you along the path of playing guitar every step of the way. Included with your fingerstyle guitar lessons will be easy to follow tablature notation of songs and exercises. Included in many of your lessons is a video performance synced to an interactive tablature player. It make practice easy and fun."
 
 ---
