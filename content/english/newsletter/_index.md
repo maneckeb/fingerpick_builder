@@ -21,6 +21,11 @@ fallback: Oops! This page requires to be a member of our newsletter for access. 
 
   Looking for more tunes to learn?  Check out my store on <a href="">Soundslice</a> for more tabs, and <a href="/contact">contact me</a> for 1:1 Lessons.  
 
+  Here is a great tutorial on using Soundslice, I think one of the best tools for learning instruments.  
+  <a target="_blank" href="https://www.soundslice.com/help/en/player/basic/99/overview/">https://www.soundslice.com/help/en/player/basic/99/overview/</a>  
+
+  If you are having trouble viewing this emebeded Soundslice tab, hit the "fullscreen" button on the bottom of the player. 
+
   Happy Picking, Burl.
 
  <div class="col-12">
