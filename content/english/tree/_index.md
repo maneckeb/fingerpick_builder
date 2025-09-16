@@ -17,7 +17,7 @@ links:
     title: "Purchase Tabs"
     description: "Check out my Tab Store on Soundslice"
 
-  - href: "mailto:burl@fingerpickguitar.com"
+  - href: "https://fingerpickguitar.com/contact"
     icon: "fas fa-envelope fa-xl"
     title: "Lessons"
     description: "Contact me for 1:1 Lessons"
