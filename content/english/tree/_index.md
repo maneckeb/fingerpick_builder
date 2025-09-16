@@ -27,7 +27,7 @@ links:
     title: "Website"
     description: "Check out the full website" 
 
-  - href: "https://venmo.com/brian-manecke"
+  - href: "https://venmo.com/brian-manecke/?txn=pay"
     icon: "fas fa-gift fa-xl"
     title: "Venmo"
     description: "Tips always appreciated"
