@@ -8,7 +8,7 @@ banner:
   button:
     enable: true
     label: "Contact Burl"
-    link: "contact"
+    link: "/contact"
 
 # Features
 features:
