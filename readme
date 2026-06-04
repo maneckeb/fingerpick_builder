@@ -5,3 +5,5 @@ To create a new page:  hugo new {section/title.md}
 in new codespace run npm install before building
 
 To deploy, npm run build.   Log into cloudflare acount.  Search for deployement and upload newly created public folder.
+
+tried to add a workflow to deploy to github pages
