@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Actively Gigging on Fingerpick Guitar | Travis Picking Guitar Lessons</title>
+    <link>http://localhost:1313/categories/actively-gigging/</link>
+    <description>Recent content in Actively Gigging on Fingerpick Guitar | Travis Picking Guitar Lessons</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jul 2025 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/actively-gigging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Burl Onion &amp; the One Man Groove</title>
+      <link>http://localhost:1313/projects/onemanegroove/</link>
+      <pubDate>Thu, 31 Jul 2025 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/onemanegroove/</guid>
+      <description>Music to the Streets! Wandering through downtown Salt Lake City? Keep an eye and ear out for the unmistakable beat of Burl and his One Man Groove.</description>
+    </item>
+    <item>
+      <title>The Freeloaders Oldtime</title>
+      <link>http://localhost:1313/projects/thefreeloaders/</link>
+      <pubDate>Sun, 01 Jun 2025 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/thefreeloaders/</guid>
+      <description>The Freeloaders Old Time: Salt Lake City’s String-Band Secret Tucked into the Wasatch shadows and humming through the heart of Salt Lake City is a band that doesn’t just play old-time music, they live it.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collab on Fingerpick Guitar | Travis Picking Guitar Lessons</title>
+    <link>http://localhost:1313/categories/collab/</link>
+    <description>Recent content in Collab on Fingerpick Guitar | Travis Picking Guitar Lessons</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Jul 2024 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/collab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mario Slice - This</title>
+      <link>http://localhost:1313/projects/marioslice/</link>
+      <pubDate>Wed, 31 Jul 2024 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/marioslice/</guid>
+      <description>Genre Bending Music Mario Slice is eccletic and experimental music spanning multiple genres with elements of Indie Rock, Jazz, Synth-pop, Lo-Fi, Reggae, Electronic, and more.</description>
+    </item>
+    <item>
+      <title>The Khaki Scouts</title>
+      <link>http://localhost:1313/projects/thekhakiscouts/</link>
+      <pubDate>Wed, 01 Jun 2011 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/thekhakiscouts/</guid>
+      <description>From Meg &amp;amp; Dia to The Khaki Scouts Meg Frampton and Nick Price were integral members of Meg &amp;amp; Dia, a band that gained a loyal following in the mid-2000s with its emotionally rich lyrics and melodic rock sound.</description>
+    </item>
+  </channel>
+</rss>

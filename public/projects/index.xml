@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Fingerpick Guitar | Travis Picking Guitar Lessons</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Fingerpick Guitar | Travis Picking Guitar Lessons</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jul 2025 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Burl Onion &amp; the One Man Groove</title>
+      <link>http://localhost:1313/projects/onemanegroove/</link>
+      <pubDate>Thu, 31 Jul 2025 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/onemanegroove/</guid>
+      <description>Music to the Streets! Wandering through downtown Salt Lake City? Keep an eye and ear out for the unmistakable beat of Burl and his One Man Groove.</description>
+    </item>
+    <item>
+      <title>The Freeloaders Oldtime</title>
+      <link>http://localhost:1313/projects/thefreeloaders/</link>
+      <pubDate>Sun, 01 Jun 2025 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/thefreeloaders/</guid>
+      <description>The Freeloaders Old Time: Salt Lake City’s String-Band Secret Tucked into the Wasatch shadows and humming through the heart of Salt Lake City is a band that doesn’t just play old-time music, they live it.</description>
+    </item>
+    <item>
+      <title>Mario Slice - This</title>
+      <link>http://localhost:1313/projects/marioslice/</link>
+      <pubDate>Wed, 31 Jul 2024 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/marioslice/</guid>
+      <description>Genre Bending Music Mario Slice is eccletic and experimental music spanning multiple genres with elements of Indie Rock, Jazz, Synth-pop, Lo-Fi, Reggae, Electronic, and more.</description>
+    </item>
+    <item>
+      <title>Burl Onion - Lester Piano Demos</title>
+      <link>http://localhost:1313/projects/lesterpianodemos/</link>
+      <pubDate>Fri, 01 Feb 2013 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/lesterpianodemos/</guid>
+      <description>100 year old Lester Piano What can be pulled out of a hundred year old, somewhat out of tune and dead piano?</description>
+    </item>
+    <item>
+      <title>Open Orchard Revival</title>
+      <link>http://localhost:1313/projects/openorchardrevival/</link>
+      <pubDate>Tue, 31 Jul 2012 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/openorchardrevival/</guid>
+      <description>Salt Lake City Gospel A group of Salt Lake City area musicians came together to create a gospel album as a tribute to a grandmother.</description>
+    </item>
+    <item>
+      <title>The Folka Dots</title>
+      <link>http://localhost:1313/projects/thefolkadots/</link>
+      <pubDate>Sun, 31 Jul 2011 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/thefolkadots/</guid>
+      <description>The Folkadots: Utah&amp;rsquo;s Harmonious Heartbeat If you&amp;rsquo;re craving music that feels like a warm hug from the mountains and a breeze from the desert, look no further than The Folkadots.</description>
+    </item>
+    <item>
+      <title>The Khaki Scouts</title>
+      <link>http://localhost:1313/projects/thekhakiscouts/</link>
+      <pubDate>Wed, 01 Jun 2011 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/thekhakiscouts/</guid>
+      <description>From Meg &amp;amp; Dia to The Khaki Scouts Meg Frampton and Nick Price were integral members of Meg &amp;amp; Dia, a band that gained a loyal following in the mid-2000s with its emotionally rich lyrics and melodic rock sound.</description>
+    </item>
+  </channel>
+</rss>

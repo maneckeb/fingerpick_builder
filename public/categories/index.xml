@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Fingerpick Guitar | Travis Picking Guitar Lessons</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Fingerpick Guitar | Travis Picking Guitar Lessons</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jul 2025 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actively Gigging</title>
+      <link>http://localhost:1313/categories/actively-gigging/</link>
+      <pubDate>Thu, 31 Jul 2025 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/actively-gigging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Collab</title>
+      <link>http://localhost:1313/categories/collab/</link>
+      <pubDate>Wed, 31 Jul 2024 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/collab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Listen Online</title>
+      <link>http://localhost:1313/categories/listen-online/</link>
+      <pubDate>Wed, 31 Jul 2024 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/listen-online/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
